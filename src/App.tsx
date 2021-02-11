@@ -34,7 +34,7 @@ const App =() =>{
       setGameOver(false);
       const newQuestions = await fetchQuizQuestions(
         TOTAL_QUESTIONS,
-        Difficulty.EASY
+        Difficulty.MEDIUM
       );
       setQuestions(newQuestions);
       setScore(0);
