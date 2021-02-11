@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "./static/js/main.d336c743.chunk.js",
+    "main.js.map": "./static/js/main.d336c743.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.c33ad26d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.c33ad26d.js.map",
+    "static/js/2.d2f91451.chunk.js": "./static/js/2.d2f91451.chunk.js",
+    "static/js/2.d2f91451.chunk.js.map": "./static/js/2.d2f91451.chunk.js.map",
+    "index.html": "./index.html",
+    "static/js/2.d2f91451.chunk.js.LICENSE.txt": "./static/js/2.d2f91451.chunk.js.LICENSE.txt",
+    "static/media/bg-img.8cf62ff3.jpg": "./static/media/bg-img.8cf62ff3.jpg",
+    "static/media/death-star.2a0da5dc.png": "./static/media/death-star.2a0da5dc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c33ad26d.js",
+    "static/js/2.d2f91451.chunk.js",
+    "static/js/main.d336c743.chunk.js"
+  ]
+}
