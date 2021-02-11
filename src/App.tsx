@@ -3,6 +3,8 @@ import { fetchQuizQuestions } from './API';
 import { QuestionState, Difficulty} from './API';
 import QuestionCard from "./components/QuestionCard";
 import { GlobalStyle, Wrapper } from './App.style';
+import footerImg from "./imgs/death-star.png"
+
 
  export type AnswerObject = {
   question: string;
@@ -96,6 +98,18 @@ const App =() =>{
       <button className="next" onClick={nextQuestion}>
       Next question
       </button>):null}
+
+      <small className= "footer">
+        Made with 
+        <img className="footer_img" src={footerImg} alt ="Icon of death star"/> by &copy;ArantxaDR 2021
+      <div>Iconos diseñados por 
+        <a href="https://www.flaticon.es/autores/nhor-phai" title="Nhor Phai">
+          Nhor Phai</a> 
+          from 
+          <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a>
+          </div>
+          </small>
+      
       </Wrapper>
     </>
   );

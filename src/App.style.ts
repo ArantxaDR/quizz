@@ -62,4 +62,17 @@ export const Wrapper = styled.div`
   .start {
     max-width: 200px;
   }
+  .footer{
+    background-color: #cba13c;
+    color: black;
+    margin-top: 10px;
+    border-radius: 15px ;
+    padding: 5px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .footer_img{
+    height: 25px;
+  }
 `;
